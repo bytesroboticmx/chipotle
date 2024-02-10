@@ -1,0 +1,15 @@
+Instrucciones de instalacion:
+
+Una vez que tengas Rust instalado, puedes crear un nuevo proyecto usando Cargo, el sistema de gestión de paquetes y compilación de Rust:
+
+cargo new generador_palabras
+cd generador_palabras
+Este comando creará una nueva carpeta llamada generador_palabras con un proyecto Rust básico. Ahora, vamos a editar el archivo src/main.rs para crear nuestro generador de palabras:
+
+Antes de ejecutar este código, necesitas agregar la dependencia rand a tu proyecto para usar la funcionalidad de generación de números aleatorios. Abre el archivo Cargo.toml y agrega rand bajo [dependencies]:
+
+[dependencies]
+rand = "0.8.4"
+
+Ahora puedes compilar y ejecutar tu proyecto con Cargo:
+cargo run
